@@ -1,0 +1,15 @@
+{
+    "name": "hiwye/flags-api",
+    "require": {
+        "silex/silex": "^2.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "Sebastian Walker",
+            "email": "info@walkermedia.de"
+        }
+    ]
+}

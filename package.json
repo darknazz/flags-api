@@ -1,0 +1,7 @@
+{
+  "name": "flags-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "bulma": "^0.1.2"
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flags API by Sebastian Walker</title>
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    </head>
+    <body>
+    <section class="hero is-primary is-medium is-bold" style="background: url(images/header.png);">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1">
+                    The Country Flags API
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="hero is-dark is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Need to display country flags in your web app?
+                </h1>
+                <h2 class="subtitle">
+                    Use this image API to make it a breeze!
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content is-medium">
+                <div class="heading">
+                    <h1 class="title">Features</h1>
+                </div>
+                <ul>
+                    <li>Support for <b>many formats</b> (us, en_US, en-US, en, etc.)</li>
+                    <li>HTTPS enabled</li>
+                    <li>Different image sizes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content is-medium">
+                <div class="heading">
+                    <h1 class="title">Usage</h1>
+                </div>
+                <p>
+                    Simply use the API as an image in HTML. This will return a PNG image,
+                    ready to be embedded in your web app.<br>
+                    <code>&lt;img src="https://flags.swcdn.org/small/en_US"&gt;</code>
+                </p>
+                <p>
+                    The URL should always be structured like this:<br>
+                    <code>https://flags.swcdn.org/{size}/{country_code}</code><br>
+                    Replace <i>size</i> with either tiny, small, or large to determine the image size. Then, include
+                    your country code at <i>country_code</i>.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content is-medium">
+                <div class="heading">
+                    <h1 class="title">Credits</h1>
+                </div>
+                <p>
+                    This service uses flag images from
+                    <a href="http://flagpedia.net/download" target="_blank">flagpedia.net</a>.
+                </p>
+                <p>
+                    It was developed by <a href="https://walkermedia.de" target="_blank">Sebastian Walker</a>,
+                    because he needed something like this for one of his own projects and couldn't find something similar.
+                </p>
+                <p>
+                    You can find the source code of this site on <a href="https://github.com/hiwye/flags-api" target="_blank">Github</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
