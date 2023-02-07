@@ -36,7 +36,7 @@ class FlagLookup{
     }
 
     private static $languageCodeMap = [
-        'en'=>'us'
+        'en'=>'gb'
     ];
 
     private static $flags = [
