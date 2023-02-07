@@ -1,7 +1,7 @@
 {
     "name": "darknazz/flags-api",
     "require": {
-        "silex/silex": "^2.0"
+        "symfony/flex": "^2.2.4"
     },
     "autoload": {
         "classmap": ["src/"]
