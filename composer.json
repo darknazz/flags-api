@@ -1,5 +1,5 @@
 {
-    "name": "hiwye/flags-api",
+    "name": "darknazz/flags-api",
     "require": {
         "silex/silex": "^2.0"
     },
